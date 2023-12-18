@@ -1,0 +1,6 @@
+@ConsulDemo_HostAddress = http://localhost:5199
+
+GET {{ConsulDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

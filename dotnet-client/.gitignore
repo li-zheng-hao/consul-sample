@@ -1,0 +1,16 @@
+.vs/
+obj/
+logs/
+Debug/
+Release/  
+obj/
+bin/
+packages/
+*.log
+*.dylib
+*.so
+*.db-shm
+*.db-wal
+*.db
+.idea/
+PDM/PDM.sln.DotSettings.user

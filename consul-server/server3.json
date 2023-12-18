@@ -1,0 +1,32 @@
+{
+    "node_name": "consul-server-node-3",
+    "server": true,
+    "bootstrap": false,
+    "ui_config": {
+        "enabled": true
+    },
+    "datacenter": "dc1",
+    "data_dir": "./data3",
+    "log_level": "INFO",
+    "log_file":"./data/log.log",
+    "log_rotate_max_files":7,
+    "connect": {
+        "enabled": true
+    },
+    "retry_join" : ["172.10.3.77:8301","172.10.3.77:8311","172.10.3.77:8321"],
+    "acl": {
+        "enabled": true,
+        "default_policy": "allow",
+        "enable_token_persistence": true
+    },
+    "bind_addr":"172.10.3.77",
+    "client_addr":"172.10.3.77",
+    "ports":{
+        "http": 8520,
+        "grpc_tls": 8523,
+        "dns": 8620,
+        "server": 8320,
+        "serf_lan": 8321,
+        "serf_wan": 8322
+    }
+}
