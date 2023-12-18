@@ -39,3 +39,4 @@
 
 1. [client mode configuration](https://devopscube.com/hsetup-configure-consul-agent-client-mode/)
 2. [consul单机集群配置](https://blog.csdn.net/yzf279533105/article/details/130268875)
+3. [Consul官方配置文件文档](https://developer.hashicorp.com/consul/docs/agent/config/config-files)
